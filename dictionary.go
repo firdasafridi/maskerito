@@ -1,0 +1,41 @@
+package maskerito
+
+var dictionary = map[string]string{
+	"npwp":        NPWP,
+	"NPWP":        NPWP,
+	"Npwp":        NPWP,
+	"npwp_no":     NPWP,
+	"NpwpNo":      NPWP,
+	"NPWPNo":      NPWP,
+	"npwp_number": NPWP,
+	"NPWPNumber":  NPWP,
+	"NPWPNUMBER":  NPWP,
+
+	"siup":        SIUP,
+	"SIUP":        SIUP,
+	"Siup":        SIUP,
+	"siup_no":     SIUP,
+	"SiupNo":      SIUP,
+	"SIUPNo":      SIUP,
+	"SIUPNO":      SIUP,
+	"siup_number": SIUP,
+	"SIUPNumber":  SIUP,
+	"SiupNumber":  SIUP,
+	"SIUPNUMBER":  SIUP,
+
+	"bank":                Bank,
+	"Bank":                Bank,
+	"bank_account_number": Bank,
+	"BankAccountNumber":   Bank,
+	"bank_number":         Bank,
+	"BankNumber":          Bank,
+
+	"mobile":       Mobile,
+	"Mobile":       Mobile,
+	"phone_number": Mobile,
+	"PhoneNumber":  Mobile,
+	"mobile_phone": Mobile,
+	"MobilePhone":  Mobile,
+	"no_hp":        Mobile,
+	"NoHP":         Mobile,
+}
